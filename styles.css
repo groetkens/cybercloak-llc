@@ -112,3 +112,20 @@ li{ margin:0 0 6px 0; }
   white-space: nowrap;
   border: 0;
 }
+
+.primary-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:6px 10px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  background:#fff;
+  color:var(--link);
+  text-decoration:none;
+}
+
+.primary-badge:hover,
+.primary-badge:focus{
+  text-decoration:underline;
+}
